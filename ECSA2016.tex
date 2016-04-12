@@ -1,0 +1,128 @@
+\documentclass{llncs}
+\usepackage{subfigure}
+\usepackage{algorithmicx}
+\usepackage[ruled]{algorithm}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usetikzlibrary{chains}
+\usetikzlibrary{%
+		arrows,%
+		shapes.misc,% wg. rounded rectangle
+		shapes.arrows,%
+		chains,%
+		matrix,%
+		positioning,% wg. " of "
+		scopes,%
+		decorations.pathmorphing,% /pgf/decoration/random steps | erste Graphik
+		shadows%
+	}
+\usepackage{algpseudocode}
+\let\FOREACH\FORALL
+%\usepackage[ngerman]{babel}
+\usepackage{xxcolor}
+\usetikzlibrary{chains,matrix,scopes,decorations.shapes,arrows,shapes}
+%\usepackage[active,tightpage]{preview}
+%\PreviewEnvironment{tikzpicture}
+%\setlength\PreviewBorder{5pt}%
+
+\begin{document}
+
+\title{Multi-View Variability Modeling for Distributed Deployment in Extended Smart Home Architecture}
+
+\author{Amal Tahri $ ^{1,2}$, Laurence Duchien$ ^{2}$, Jacques Pulou$ ^{1}$}
+
+\institute{
+	$ ^{1}$Orange Labs Meylan, France\\
+	$ ^{2}$INRIA Lille-Nord Europe, CRISTAL laboratory,
+	University Lille 1, France}
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+
+\section{Introduction}\label{sec:Introduction}	
+Software Product Lines (SPL) based on variability management are rapidly emerging as an important software development paradigm in complex environment. SPL development approach has proven its efficiency in the last decades for building product lines with higher quality and at lower cost. But along with the gains come risks. Using a product line approach constitutes a new technical strategy that affects the software development and deployment processes. The deployment of a software product line is the mapping of a set of software features of a product on a set of deployment nodes. The challenges of such deployment is managing the variability of the software application product line and the variability of the deployment node product lines.\\ In a context such as the Smart Home (SH), the raise of new automation services such as home security, comfort and energy efficiency offers a multitude of options and choices to the customers of the SH. These services, delivered as component-based applications~\cite{Szyperski} can be represented as product lines. However, the SH market, nowadays, is driven by the technological fragmentation: Service providers are scattered over the SH market to offer vertically integrated end-to-end solutions. Each provider offers isolated silo of solution with their own deployment environment such as automation boxes and home devices, e.g., sensor, actuator, camera. To our opinion, actual deployment environment limits the SH expansion by adding new devices and boxes which increase dramatically the SH cost and therefore the SH complexity.\\
+In order to limit this complexity, we promote the Smart Home Extended Architecture (SHEA), an open platform that expands the SH deployment environment to include the Cloud platform and mobile connected devices to host the SH applications.
+SHEA encompasses different deployment nodes such as the Home Automation Box (HAB), Cloud nodes on the Platform as a Service (PaaS), other connected things and mobile phones. These nodes are the target platform for hosting SH applications. However, SHEA is characterized by the variability of the applications and the variability of the available deployment nodes. Application variability refers to different options and choices of the same application that delivers the subscribed service by the customer. Deployment node variability refers to different resource offers: from embedded node inside the SH with limited resources to virtual node on the Cloud PaaS with on-demand resource allocation.
+Disposing of several nodes dispatched between the SH and the Cloud enlarges the deployment configurations for the application.  \\
+Therefore, the first challenge is to ($C1$) express and manage the variability of the application and the variability of the available nodes in the SHEA in order to identify all the valid deployment configurations.\\
+Different stakeholders are involved in the SHEA. Service providers offer different services to SH customers. Telecommunication operators offer the Home Automation Box (HAB), the centric deployment node in the SH that connects the different home devices, e.g., sensors, actuators and other connected things to the home network as well as other devices, e.g., mobiles or tablets. Cloud providers offer computational and storage capacities thanks to the PaaS and its on-demand resource allocation. Customers are the target clients of the service providers, telecommunication operators and Cloud providers.\\
+However, each stakeholder has specific concerns which describe multi-views in the SHEA. Therefore, to offer an open environment to different stakeholders,
+an unified modeling approach is needed to express and understand each stakeholder concern and the related views.
+Then, the second challenge is ($C2$) to involve all the different stakeholders in a modeling approach that presents and describes the different views related to the SHEA stakeholder concerns.\\ 
+%PL proposition
+In this paper, we consider the deployment of a SH application product line on multiple deployment node product lines in the SHEA with specific consideration of the variability and the multi-view properties of the SHEA. In Section~\ref{sec2}, we propose a multi-view variability meta-model based on the IEEE P1471~\cite{jacobson1999unified} Recommended Practice for
+Architectural Documentation with respect to product lines in general, and
+architectural and feature variabilities in particular. Section~\ref{sec3} illustrates the proposed variability documentation applied to the deployment view of the ``4+1'' view model~\cite{kruchten1995}. In particular, we focus on the deployment view of a software architecture of a SH application product line by showing the architectural representation in feature modeling and how the different views e.g., logical, process and development contribute to the definition of the deployment view.
+Section~\ref{sec4} shows the effective deployment of this example using an autonomic deployment platform in the SHEA. Related work is described in Section~\ref{sec5}. Finally, conclusion and future works are presented in Section~\ref{sec6}.
+%In order to face the variability challenge ($C1$), we present a Software Product Line (SPL)~\cite{Pohl2005} based approach to manage the variability in the SHEA.\\
+%To tackle the challenge ($C2$), we introduce a consider the ``4+1'' view model~\cite{kruchten1995}. We associate a view to each stakeholder to describe their concerns and perspectives. Then, we explain the architectural representation of each view and how it contributes to the deployment in the SHEA.
+%TDorganization
+\section{Multi-view Variability Meta-Model} \label{sec2}
+In this section, we introduce the Smart Home Extended Architecture Deployment Framework (SHEAD-F) that supports the deployment of an application product line on multiple product lines of deployment nodes in a complex environment.
+This framework is based on a multi-view variability meta-modeling approach presented in Figure~\ref{MM}, to provide guidance between the development process and the deployment process of a software product line. To avoid reinventing the wheel, the multi-view variability meta-model is an extension of the architectural variability meta-model presented in~\cite{thiel2002systematic}. The novelty of this approach is the description of an architecture of a software product line with specific consideration of the multi-view and the variability properties for the deployment purpose.\\
+The expression of these properties are introduced through three extensions:
+\begin{enumerate}
+	\item Product Line Extension (PLE) is shown in the upper left of the Figure~\ref{MM}.% describes the \emph{product line}, its \emph{architecture} and how it can be instantiated in two or several \emph{product}. 
+	\item Architectural Variability Extension (AVE) covers the explicit representation and specification of variability for the deployment purpose in the architecture of a product line.
+	\item Feature Variability Extension (FVE) represents how to express variability using extended feature modeling with specific consideration of the deployment purpose.
+\end{enumerate}
+%In order to cope with the specific challenges of the deployment of product line architectures, we concentrate, in this section, on the explanation of the architectural and feature variability extensions. 
+\subsection{IEEE P1471 and Product Line Extension}
+ %In fact, the P1471 is focused on single products and does not cover the modeling of product lines. 
+%The software architecture of component-based applications~\cite{Szyperski} in the SHEA describes the software components and the relationships between them. Components are typically specified in different views to show the relevant functional and non-functional requirements of the software. A view is a representation of a software architecture from a stakeholder perspective with a related set of concerns~\cite{muskens2004investigations}.
+The IEEE P1471 recommended practice for architectural description, shown in the upper right of the Figure~\ref{MM}, defines the architectural description from different stakeholder concerns, views, and viewpoints.\\
+The P1471 is focused on single products and does not cover the modeling of product lines. Therefore, we propose an extension to cover the variability of a product line through an architectural variability extension and a feature variability extension. Such extensions have been presented in~\cite{thiel2002systematic} with focus on the design phase of a product line. In this paper, we focus on the missing elements to define the deployment phase.\\
+IEEE P1471 defines the description of an architecture of a \texttt{product line} as shown in the PLE in the upper left of the Figure. A software product line is ``a set of software-intensive systems sharing a common, managed set of features that satisfy the specific needs of a particular market segment or mission and that are developed from a common set of core assets in a prescribed way''~\cite{clements2002software}. A product line has an \texttt{architecture} and can be instantiated as \texttt{product}. A product line has one or several \texttt{stakeholder}, in the IEEE P1471, with a specific \texttt{concern}. The stakeholder addresses a specific \texttt{viewpoint} which is recorded in a \texttt{library viewpoint}. \texttt{Architecture Description} has one or several \texttt{Architectural view}(s) described in \texttt{Architectural View Model}. A detailed description of the IEEE P1471 can be found in~\cite{jacobson1999unified}.
+\begin{figure}
+	\centering%
+	\includegraphics[width=0.9\paperwidth, angle=90]{images/DomainModel1.png}
+	\caption{Multi-View Variability Meta-Model.}\label{MM}
+\end{figure}
+\subsection{Feature Variability Extension}
+Several works on the variability modeling have proposed a meta-model to describe the use of feature models with an abstract syntax~\cite{quinton2014cloud,Parra2011,Pohl2005}.\\
+A feature is understood as ``a product characteristic that users and customers view as important in describing and distinguishing members of the product line''\cite{thiel2002systematic}.
+In this context, features represent deployment units and thus describe the problem space for the product line deployment phase.\\ Variability meta-model, in Figure~\ref{MM}, refers to \texttt{Feature Model} meta-class composed of a \texttt{root} and \texttt{constraints}. Root is derived from the \texttt{Feature} meta-class. 
+Each feature has \texttt{subFeatures}, \texttt{cardinalities} and \texttt{attributes}. Cardinalities indicate how many instances of the feature can be present in a configuration.
+A feature can be either common or \emph{variable}. In the first case, the feature is included in all \emph{feature configurations} to describe a \emph{product} in a \emph{product line} (Product line Extension in Figure~\ref{MM}). In the latter case, the feature is implemented in a single feature or a set of features (at least 2), but not by all. These members can be \texttt{Alternative}, which can be an \texttt{Exclusive}. Alternative allows the selection of one or several sub-features in a configuration. Exclusive indicates that only one sub-feature can be selected in a configuration.\\ 
+Dependencies among features are represented using \emph{constraint} . ``\emph{Boolean constraint} are \emph{implies} and \emph{excludes}: Implies signifies that when a \emph{From} feature is selected, the \emph{To} feature must be present in the same configuration. Excludes means that if \emph{From} feature is selected, the \emph{To} feature must not be present in the same configuration.\\
+We have introduced the \texttt{Deployment Node Feature} as a new feature category to represent the deployment node. \texttt{Deployment Constraint} is a new constraint category that expresses fundamental deployment constraints such as \texttt{Colocated}  \texttt{Seperated} between two features, and \texttt{HostedBy} or \texttt{NotHostedBy} between a feature and a deployment node feature.
+\subsection{Architectural Variability Extension}
+%Introduce the architectuiral variability and how we obtain an architectural configuration ==> the compute deployment configurations are actualy the different possibilities of the deployment architecture of an application product line and several deployment node product line that actually represent a distributed envirnment.  deployment architurtural (view) configurations
+\emph{Architectural variability} can be summarized in an \emph{architectural variability model} that can be used to create \emph{architecture configuration(s)}. An architecture configuration is defined as a \emph{feature configuration} in the FVE that describes a product in the PLE. To define an architecture variability model, the \emph{architectural variability specification} has to be described using the \emph{feature model} from the FVE. This specification is expressed as \emph{dependency}, \emph{composition} and \emph{resource allocation}. Dependency is related to \emph{constraint} in the FVE that describes the relationship among feature. Composition defines the hierarchy of \emph{feature model} in the FVE. This hierarchy is described as \emph{feature}, \emph{subFeatures} and \emph{variable feature}. Resource allocation is expressed as \emph{attributes} and the resource allocation constraint in the FVE.  \\
+For a product line, \emph{architectural variability} is present in each architectural view and therefore each \textsc{architectural variability model} addresses an architectural view model. Architectural variability is represented by a \emph{variable feature} in the feature variability extension.\\
+%Introduction of the existing meta-model and then talk about the new elements introduced in this meta-model for the deployment purpose 
+\section{Modeling the Deployment View Variability}
+ \label{sec3}
+In this section, we show examples from applying the multi-view
+variability modeling concept introduced in the previous section to a product line of SH application to be deployment on several deployment node product lines in the SHEA. We focus on the deployment view in with consideration of the (i) variability of the application and the variability of the deployment nodes and (ii) multi-views related to different stakeholder concerns.
+%we explain the prerequisites to model the variability of a deployment view in the the ``4+1'' view model~\cite{kruchten1995}. 
+\subsection{Motivation Example}
+Security service provider offers a ``Motion-Sensing Detection'' application for home security. This application records video flows from a security camera, and takes snapshots of the detected changes in the video flow. These snapshots can be analyzed in order to identify and match faces with a predefined data base of friends and families of the home owners, i.e., customers. Live streaming from the camera is offered with the basic product. Face recognition is only available with the premium product. Premium product can have different variants with different performances due to the used recognition algorithm. The security service provider aims to launch new products quickly by reducing the time-to-market. Therefore, the provider adapts a Software Product Line (SPL) development approach. %as it has proven its efficiency in the last decades for building product lines with higher quality and at lower cost.
+\\
+Telecommunication operators and Cloud providers deliver the product lines of the deployment nodes, respectively, the Home Automation product line and the Cloud PaaS product line. This application is displayed to the SHEA customers through the SHEA store. This store allows the customers to purchase a new service, select the preferred product, i.e., basic, premium, from the SH store functionalities and install remotely the application on the existing nodes in their homes. The variability between the different products are the selection of the following functionalities: ``\textit{Motion Detection}'', ``\textit{Face Recognition}'', ``\textit{Live Streaming}'' and ``\textit{Storage}''. \textit{Motion Detection} captures and streams video flows from a surveillance camera. It detects changes of movements in the video flow. Then, it takes snapshots of these changes and displays them to customer screen(s) as \textit{Live Streaming}. The \textit{Storage} of the video flow is done automatically. \textit{Face Recognition} extracts and identifies face images from a video flow of a surveillance camera. The images are captured and submitted for face recognition where images are matched with face images in the data base of authorized persons. Finally, a notification warns the customer when a movement is detected and/or a person is identified.
+\subsection{Challenges}\label{subsec:challenges}
+%we present extension of the variability meta-model used to define a feature analysis oriented deployment. This extension introduces the deployment constraints and node feature in the variability meta-model. Then, we show how the variability can be integrated into the software development activity.
+\subsection{Introducing Variability to the Deployment View}
+\subsubsection{Assumptions}
+\paragraph{Modeling Approach}The modeling approach using the ``4+1'' view model is an interesting approach that involves several stakeholders to produce only one application. However, the ``4+1'' view model is not adapted to express the application variability related to each view. A product family of SH application deployed on product families of deployment nodes in the SHEA are considered. %We illustrate the different steps to achieve the deployment in the SHEA. Then, we introduce the variability concern in each view of the ``4+1'' view model.
+\paragraph{Roles and inputs}
+\textcolor{magenta}{Roles : architects, integrateurs, et deployeurs qui definit les contraintes de deployement. le developpers n'a pas vraiment d'importance.}\\
+Software architects describe the Functional Requirements (FR) of the application: What the SH application should provide in terms of services to its customers. Developers implement the application. Integrators verify the dynamic behavior and the Non-Functional Requirements (NFR) of the application. Deployers deploy the application on the customer deployment nodes.
+\paragraph{Resource Allocation}
+The postulate of this paper is that ``deployment units express their resource requirements, e.g., CPU and RAM to meet specific QoS. If the deployment nodes dispose and can satisfy the deployment unit requirements, then, deployment nodes automatically allocate and guarantee the required resources to the deployment units. If deployment nodes cannot guarantee the deployment unit requirements, they refuse the resource allocation''. The node resources can satisfy the deployment unit demands regarding of the resource allocation model. For example, a process allocation model is based on different threads and the Round Robing (RR) dispatching algorithm. The CPU scheduler goes through a waiting queue and allocates the CPU to thread $i$ for a time interval of $ki$ quanta. Suppose now that the RR period is $n$ quanta and that CPU gets a full computation power of $X$ MIPS.  If a process claims $C$ MIPS of CPU with respect to NFR, so the CPU scheduler should allocate $ki = C*n/X$ quanta.\\ This postulate explains how \textcolor{magenta}{component} from development view respect the NFR that comes along with the resource allocation, thus verifying the postulate.
+\subsubsection{Deployment View Variability}
+
+\section{Preliminary Validation} \label{sec4}
+%\textcolor{magenta}{Consistency checking is used to determine whether the multiple-view model follows the rules defined in the multiple-view meta-model.}
+\subsection{Consistency checking}
+\subsection{Supporting the Configuration Process}
+%\textcolor{magenta}{Finally, our goal is to create feature models that allow configuration of product architectures through domain abstractions. Therefore, the variability in a product line must generally be made explicit and specified in detail. Furthermore, the individual representations must be formalized. In particular, adequate notations for feature models as well as for architectures are needed.}
+\section{Related Work} \label{sec5}
+\section{Conclusion} \label{sec6}
+\bibliographystyle{abbrv}
+\bibliography{BibECSA}
+\end{document}

@@ -1,0 +1,904 @@
+% Encoding: windows-1252
+
+@INPROCEEDINGS{acher2011domain,
+  author = {Acher, Mathieu and Collet, Philippe and Lahire, Philippe and France,
+	Robert B},
+  title = {A domain-specific language for managing feature models},
+  booktitle = {Proceedings of the 2011 ACM Symposium on Applied Computing},
+  year = {2011},
+  pages = {1333--1340},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\Familiar.pdf:PDF}
+}
+
+@INPROCEEDINGS{Acher2012,
+  author = {Acher, Mathieu and Heymans, Patrick and Collet, Philippe and Quinton,
+	Cl{\'e}ment and Lahire, Philippe and Merle, Philippe},
+  title = {Feature model differences},
+  booktitle = {Advanced Information Systems Engineering},
+  year = {2012},
+  pages = {629--645},
+  organization = {Springer},
+  file = {:BaseDonnéeBiblio\\Acher2012.pdf:PDF}
+}
+
+@INPROCEEDINGS{ALeeStew,
+  author = {Lee, Ka Chun Anthony and Segarra, Maria Teresa and Gilliot, Jean-Marie
+	and Guelec, Stephane},
+  title = {A collaborative development process for adaptive service deployments},
+  booktitle = {STEW 2012 : Second International Software Technology Exchange Workshop},
+  year = {2012},
+  file = {:BaseDonnéeBiblio\\Software Variability\\AnthonyLee_stew2012_vSubmit.pdf:PDF}
+}
+
+@INPROCEEDINGS{anke2007planning,
+  author = {Anke, J{\"u}rgen and Wolf, Bernhard and Hackenbroich, Gregor and
+	Kabitzsch, Klaus},
+  title = {A planning method for component placement in smart item environments
+	using heuristic search},
+  booktitle = {Distributed Applications and Interoperable Systems},
+  year = {2007},
+  pages = {309--322},
+  organization = {Springer}
+}
+
+@BOOK{apt2003principles,
+  title = {Principles of constraint programming},
+  publisher = {Cambridge University Press},
+  year = {2003},
+  author = {Apt, Krzysztof}
+}
+
+@TechReport{attouchi:hal-00952327,
+  author =      {Attouchi, Koutheir and Thomas, Ga{\"e}l and Bottaro, Andr{\'e} and Lawall, Julia, L. and Muller, Gilles},
+  title =       {{Incinerator - Eliminating Stale References in Dynamic OSGi Applications}},
+  institution = {INRIA},
+  year =        {2014},
+  type =        {Rapport de recherche},
+  number =      {RR-8485},
+  month =       Feb,
+  affiliation = {Orange Labs [Grenoble] , Laboratoire d'Informatique de Paris 6 - LIP6 , REGAL - INRIA Paris-Rocquencourt},
+  file =        {RR-8485.pdf:http\://hal.inria.fr/hal-00952327/PDF/RR-8485.pdf:PDF},
+  hal_id =      {hal-00952327},
+  language =    {Anglais},
+  pages =       {22},
+  url =         {http://hal.inria.fr/hal-00952327}
+}
+
+@PHDTHESIS{attouchi2014managing,
+  author = {Attouchi, Koutheir},
+  title = {Managing resource sharing conflicts in an open embedded software
+	environment},
+  school = {Universit{\'e} Pierre et Marie Curie, Paris 6},
+  year = {2014},
+  file = {:BaseDonnéeBiblio\\koutheirPHD.pdf:PDF}
+}
+
+@INPROCEEDINGS{attouchi2014memory,
+  author = {Attouchi, Koutheir and Thomas, Ga{\"e}l and Bottaro, Andr{\'e} and
+	Muller, Gilles},
+  title = {Memory Monitoring in a Multi-tenant OSGi Execution Environment},
+  booktitle = {Proceedings of the 17th international ACM Sigsoft symposium on Component-based
+	software engineering},
+  year = {2014},
+  pages = {107--116},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\p107-attouchi.pdf:PDF}
+}
+
+@INCOLLECTION{bachmann2003meta,
+  author = {Bachmann, Felix and Goedicke, Michael and Leite, Julio and Nord,
+	Robert and Pohl, Klaus and Ramesh, Balasubramaniam and Vilbig, Alexander},
+  title = {A meta-model for representing variability in product family development},
+  booktitle = {Software Product-Family Engineering},
+  publisher = {Springer},
+  year = {2003},
+  pages = {66--80}
+}
+
+@ARTICLE{Benavides2010,
+  author = {Benavides, David and Segura, Sergio and Ruiz-Cort{\'e}s, Antonio},
+  title = {Automated analysis of feature models 20 years later: A literature
+	review},
+  journal = {Information Systems},
+  year = {2010},
+  volume = {35},
+  pages = {615--636},
+  number = {6},
+  file = {:BaseDonnéeBiblio\\Benavides et al 2010.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{boujbelmuscadel,
+  author = {Boujbel, Raja and Rottenberg, Sam and Leriche, S{\'e}bastien and
+	Taconet, Chantal and Arcangeli, Jean-Paul and Lecocq, Claire},
+  title = {MuScADeL: A Deployment DSL based on a Multiscale Characterization
+	Framework},
+  journal = {Not mentioned},
+  year = {2014},
+  volume = {Not mentioned},
+  pages = {Not mentioned},
+  file = {:BaseDonnéeBiblio\\MuscaDel2014_Boujbel_etal.pdf:PDF}
+}
+
+@INPROCEEDINGS{brandtzaeg2012towards,
+  author = {Brandtz{\ae}g, Eirik and Mohagheghi, Parastoo},
+  title = {Towards a domain-specific language to deploy applications in the
+	clouds},
+  booktitle = {In 3rd International Conference on Cloud Computing, GRIDs, and Virtualization},
+  year = {2012},
+  organization = {Citeseer},
+  file = {:BaseDonnéeBiblio\\CloudDeployment\\cloud_computing_2012_9_40_20200.pdf:PDF}
+}
+
+@INPROCEEDINGS{brataas2011performance,
+  author = {Brataas, Gunnar and Jiang, Shanshan and Reichle, Roland and Geihs,
+	Kurt},
+  title = {Performance property prediction supporting variability for adaptive
+	mobile systems},
+  booktitle = {Proceedings of the 15th International Software Product Line Conference,
+	Volume 2},
+  year = {2011},
+  pages = {37},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\a37-brataas.pdf:PDF}
+}
+
+@INPROCEEDINGS{brush2011home,
+  author = {Brush, AJ and Lee, Bongshin and Mahajan, Ratul and Agarwal, Sharad
+	and Saroiu, Stefan and Dixon, Colin},
+  title = {Home automation in the wild: challenges and opportunities},
+  booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing
+	Systems},
+  year = {2011},
+  pages = {2115--2124},
+  organization = {ACM},
+  owner = {PHGM9349},
+  timestamp = {2015.11.17}
+}
+
+@INCOLLECTION{capilla2002modelling,
+  author = {Capilla, Rafael and Due{\~n}as, Juan C},
+  title = {Modelling variability with features in distributed architectures},
+  booktitle = {Software Product-Family Engineering},
+  publisher = {Springer},
+  year = {2002},
+  pages = {319--329},
+  file = {:BaseDonnéeBiblio\\Software Variability\\Modeling Variability with Features in Distributed Architectures.pdf:PDF}
+}
+
+@INPROCEEDINGS{capilla2007analysis,
+  author = {Capilla, Rafael and S{\'a}nchez, Alejandro and Due{\~n}as, Juan C},
+  title = {An analysis of variability modeling and management tools for product
+	line development},
+  booktitle = {Proceedings of the Software and Services Variability Management Workshop--Concept
+	Models and Tools. Helsinki University of Technology Software Business
+	and Engineering Institut, Helsinki, Finland, HUT-SoberIT-A3},
+  year = {2007},
+  pages = {32--47}
+}
+
+@ARTICLE{capilla2014overview,
+  author = {Capilla, Rafael and Bosch, Jan and Trinidad, Pablo and Ruiz-Cort{\'e}s,
+	Antonio and Hinchey, Mike},
+  title = {An overview of Dynamic Software Product Line architectures and techniques:
+	Observations from research and industry},
+  journal = {Journal of Systems and Software},
+  year = {2014},
+  volume = {91},
+  pages = {3--23},
+  file = {:BaseDonnéeBiblio\\DynamicSPL\\I1A4-Capilla14-JSS.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@INPROCEEDINGS{cavalcante2012exploiting,
+  author = {Cavalcante, Everton and Almeida, Andr{\'e} and Batista, Thais and
+	Cacho, N{\'e}lio and Lopes, Frederico and Delicato, Flavia C and
+	Sena, Thiago and Pires, Paulo F},
+  title = {Exploiting software product lines to develop cloud computing applications},
+  booktitle = {Proceedings of the 16th International Software Product Line Conference-Volume
+	2},
+  year = {2012},
+  pages = {179--187},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\SPLCloud.pdf:PDF}
+}
+
+@INPROCEEDINGS{cervantes2004autonomous,
+  author = {Cervantes, Humberto and Hall, Richard S},
+  title = {Autonomous adaptation to dynamic availability using a service-oriented
+	component model},
+  booktitle = {Proceedings of the 26th International Conference on Software Engineering},
+  year = {2004},
+  pages = {614--623},
+  organization = {IEEE Computer Society},
+  file = {:BaseDonnéeBiblio\\ServOrientedComponentModel_byHallCervantes.pdf:PDF}
+}
+
+@INPROCEEDINGS{choco,
+  author = {Jussien, Narendra and Rochart, Guillaume and Lorca, Xavier},
+  title = {Choco: an open source java constraint programming library},
+  booktitle = {CPAIOR'08 Workshop on Open-Source Software for Integer and Contraint
+	Programming (OSSICP'08)},
+  year = {2008},
+  pages = {1--10}
+}
+
+@INPROCEEDINGS{clauss2001generic,
+  author = {Clau{\ss}, Matthias},
+  title = {Generic modeling using UML extensions for variability},
+  booktitle = {Workshop on Domain Specific Visual Languages at OOPSLA},
+  year = {2001},
+  volume = {2001}
+}
+
+@INPROCEEDINGS{coffman1996approximation,
+  author = {Coffman Jr, Edward G and Garey, Michael R and Johnson, David S},
+  title = {Approximation algorithms for bin packing: A survey},
+  booktitle = {Approximation algorithms for NP-hard problems},
+  year = {1996},
+  pages = {46--93},
+  organization = {PWS Publishing Co.}
+}
+
+@INPROCEEDINGS{coupaye2007fractal,
+  author = {Coupaye, Thierry and Stefani, Jean-Bernard},
+  title = {Fractal component-based software engineering},
+  booktitle = {Object-Oriented Technology. ECOOP 2006 Workshop Reader},
+  year = {2007},
+  pages = {117--129},
+  organization = {Springer}
+}
+
+@INPROCEEDINGS{cuervo2010maui,
+  author = {Cuervo, Eduardo and Balasubramanian, Aruna and Cho, Dae-ki and Wolman,
+	Alec and Saroiu, Stefan and Chandra, Ranveer and Bahl, Paramvir},
+  title = {MAUI: making smartphones last longer with code offload},
+  booktitle = {Proceedings of the 8th international conference on Mobile systems,
+	applications, and services},
+  year = {2010},
+  pages = {49--62},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\MAUI.pdf:PDF}
+}
+
+@INPROCEEDINGS{Czarnecki2005,
+  author = {Czarnecki, Krzysztof and Kim, Chang Hwan Peter},
+  title = {Cardinality-based feature modeling and constraints: A progress report},
+  booktitle = {International Workshop on Software Factories},
+  year = {2005},
+  pages = {16--20},
+  file = {:BaseDonnéeBiblio\\Czarnecki2005.pdf:PDF}
+}
+
+@INPROCEEDINGS{Czarnecki2006,
+  author = {Czarnecki, Krzysztof and Hwan, Chang and Kim, Peter and Kalleberg,
+	KT},
+  title = {Feature models are views on ontologies},
+  booktitle = {Software Product Line Conference, 2006 10th International},
+  year = {2006},
+  pages = {41--51},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\fm.pdf:PDF}
+}
+
+@INPROCEEDINGS{dearle2004framework,
+  author = {Dearle, Alan and Kirby, Graham NC and McCarthy, Andrew J},
+  title = {A framework for constraint-based development and autonomic management
+	of distributed applications},
+  booktitle = {Autonomic Computing, 2004. Proceedings. International Conference
+	on},
+  year = {2004},
+  pages = {300--301},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\Dearle2003.pdf:PDF}
+}
+
+@INPROCEEDINGS{Dearle2007,
+  author = {Dearle, Alan},
+  title = {Software deployment, past, present and future},
+  booktitle = {2007 Future of Software Engineering},
+  year = {2007},
+  pages = {269--284},
+  organization = {IEEE Computer Society},
+  file = {:BaseDonnéeBiblio\\Dearle2007-Deployment, past, present and future.pdf:PDF}
+}
+
+@PHDTHESIS{Druilhe2013,
+  author = {Druilhe, R{\'e}mi},
+  title = {L'Efficience {{\'E}}nerg{\'e}tique des Services dans les Syst{\`e}mes
+	R{\'e}partis H{\'e}t{\'e}rog{\`e}nes et Dynamiques: Application {\`a}
+	la Maison Num{\'e}rique},
+  school = {Universit{\'e} des Sciences et Technologie de Lille-Lille I},
+  year = {2013},
+  file = {:BaseDonnéeBiblio\\Druilhe2013.pdf:PDF}
+}
+
+@INPROCEEDINGS{druilhe2013energy,
+  author = {Druilhe, Remi and Anne, Matthieu and Pulou, Jacques and Duchien,
+	Laurence and Seinturier, Lionel},
+  title = {Energy-driven consolidation in digital home},
+  booktitle = {Proceedings of the 28th Annual ACM Symposium on Applied Computing},
+  year = {2013},
+  pages = {1157--1162},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\Remi-seagc_2013.pdf:PDF}
+}
+
+@INPROCEEDINGS{etchevers2011automated,
+  author = {Etchevers, Xavier and Coupaye, Thierry and Boyer, Fabienne and De
+	Palma, Noel and Salaun, Gwen},
+  title = {Automated configuration of legacy applications in the cloud},
+  booktitle = {Utility and Cloud Computing (UCC), 2011 Fourth IEEE International
+	Conference on},
+  year = {2011},
+  pages = {170--177},
+  organization = {IEEE}
+}
+
+@INPROCEEDINGS{etchevers2011self,
+  author = {Etchevers, Xavier and Coupaye, Thierry and Boyer, Fabienne and De
+	Palma, Noel},
+  title = {Self-configuration of distributed applications in the cloud},
+  booktitle = {Cloud Computing (CLOUD), 2011 IEEE International Conference on},
+  year = {2011},
+  pages = {668--675},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\articleIEEECloud.pdf:PDF}
+}
+
+@PHDTHESIS{etchevers2012deploiement,
+  author = {Etchevers, Xavier},
+  title = {D{\'e}ploiement d'applications patrimoniales en environnements de
+	type informatique dans le nuage},
+  school = {Universit{\'e} de Grenoble},
+  year = {2012},
+  owner = {PHGM9349},
+  timestamp = {2015.10.28}
+}
+
+@INPROCEEDINGS{featureide,
+  author = {Kastner, Christian and Thum, Thomas and Saake, Gunter and Feigenspan,
+	Janet and Leich, Thomas and Wielgorz, Fabian and Apel, Sven},
+  title = {FeatureIDE: A tool framework for feature-oriented software development},
+  booktitle = {Software Engineering, 2009. ICSE 2009. IEEE 31st International Conference
+	on},
+  year = {2009},
+  pages = {611--614},
+  organization = {IEEE}
+}
+
+@INPROCEEDINGS{garcia2013migrating,
+  author = {Garc{\i}a-Gal{\'a}n, Jes{\'u}s and Rana, OF and Trinidad, Pablo and
+	Ruiz-Cort{\'e}s, Antonio},
+  title = {Migrating to the Cloud: a Software Product Line based analysis},
+  booktitle = {3rd International Conference on Cloud Computing and Services Science
+	(CLOSER)},
+  year = {2013},
+  pages = {416--426},
+  file = {:BaseDonnéeBiblio\\CLOSER13.pdf:PDF}
+}
+
+@INCOLLECTION{giurgiu2012dynamic,
+  author = {Giurgiu, Ioana and Riva, Oriana and Alonso, Gustavo},
+  title = {Dynamic software deployment from clouds to mobile devices},
+  booktitle = {Middleware 2012},
+  publisher = {Springer},
+  year = {2012},
+  pages = {394--414},
+  file = {:BaseDonnéeBiblio\\DynamicSoftwareDepl_Middleware2012.pdf:PDF}
+}
+
+@INPROCEEDINGS{gomaa2002multiple,
+  author = {Gomaa, Hassan and Shin, Michael Eonsuk},
+  title = {Multiple-view meta-modeling of software product lines},
+  booktitle = {Engineering of Complex Computer Systems, 2002. Proceedings. Eighth
+	IEEE International Conference on},
+  year = {2002},
+  pages = {238--246},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\relatedwork4+1\\Multiple-View Meta-Modeling.pdf:PDF}
+}
+
+@INPROCEEDINGS{gunalp2012autonomic,
+  author = {G{\"u}nalp, Ozan and G{\"u}rgen, Levent and Lestideau, Vincent and
+	Lalanda, Philippe},
+  title = {Autonomic pervasive applications driven by abstract specifications},
+  booktitle = {Proceedings of the 2012 international workshop on Self-aware internet
+	of things},
+  year = {2012},
+  pages = {19--24},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\Gunalp-Gurgen-Lestideau-Lalanda_Self-IoT2012.pdf:PDF}
+}
+
+@PHDTHESIS{gunalp2014continuous,
+  author = {Gunalp, Ozan Necati},
+  title = {Continuous deployment of pervasive applications in dynamic environments},
+  school = {Universit{\'e} Grenoble Alpes},
+  year = {2014},
+  owner = {phgm9349},
+  timestamp = {2016.01.08}
+}
+
+@INPROCEEDINGS{hall1999,
+  author = {Hall, Richard S and Heimbigner, Dennis and Wolf, Alexander L},
+  title = {A cooperative approach to support software deployment using the software
+	dock},
+  booktitle = {Proceedings of the 21st international conference on Software engineering},
+  year = {1999},
+  pages = {174--183},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\HAL.pdf:PDF}
+}
+
+@INPROCEEDINGS{hallsteinsen2006using,
+  author = {Hallsteinsen, Svein and Stav, Erlend and Solberg, Arnor and Floch,
+	Jacqueline},
+  title = {Using product line techniques to build adaptive systems},
+  booktitle = {Software Product Line Conference, 2006 10th International},
+  year = {2006},
+  pages = {10--pp},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\Software Variability\\hallsteinsen2006.pdf:PDF}
+}
+
+@INPROCEEDINGS{hartmann2008using,
+  author = {Hartmann, Herman and Trew, Tim},
+  title = {Using feature diagrams with context variability to model multiple
+	product lines for software supply chains},
+  booktitle = {Software Product Line Conference, 2008. SPLC'08. 12th International},
+  year = {2008},
+  pages = {12--21},
+  organization = {IEEE}
+}
+
+@INCOLLECTION{hoareau2006constraint,
+  author = {Hoareau, Didier and Mah{\'e}o, Yves},
+  title = {Constraint-based deployment of distributed components in a dynamic
+	network},
+  booktitle = {Architecture of Computing Systems-ARCS 2006},
+  publisher = {Springer},
+  year = {2006},
+  pages = {450--464},
+  file = {:BaseDonnéeBiblio\\constraint Based Deployment.pdf:PDF}
+}
+
+@ARTICLE{hubaux2013supporting,
+  author = {Hubaux, Arnaud and Heymans, Patrick and Schobbens, Pierre-Yves and
+	Deridder, Dirk and Abbasi, Ebrahim Khalil},
+  title = {Supporting multiple perspectives in feature-based configuration},
+  journal = {Software \& Systems Modeling},
+  year = {2013},
+  volume = {12},
+  pages = {641--663},
+  number = {3},
+  file = {:BaseDonnéeBiblio\\SPL important\\hubaux2011.pdf:PDF},
+  publisher = {Springer}
+}
+
+@BOOK{jacobson1999unified,
+  title = {The unified software development process},
+  publisher = {Addison-wesley Reading},
+  year = {1999},
+  author = {Booch, Grady and Jacobson, Ivar and Rumbaugh, James},
+  volume = {1}
+}
+
+@INCOLLECTION{jansen2005modelling,
+  author = {Jansen, Slinger and Brinkkemper, Sjaak},
+  title = {Modelling deployment using feature descriptions and state models
+	for component-based software product families},
+  booktitle = {Component Deployment},
+  publisher = {Springer},
+  year = {2005},
+  pages = {119--133}
+}
+
+@INPROCEEDINGS{Jiang2004,
+  author = {Jiang, Li and Liu, Da-You and Yang, Bo and others},
+  title = {Smart home research},
+  booktitle = {Proceedings of the Third Conference on Machine Learning and Cybernetics
+	SHANGHAI},
+  year = {2004},
+  pages = {659--664},
+  organization = {Springer},
+  file = {:BaseDonnéeBiblio\\Journal - Smart Home Research.pdf:PDF}
+}
+
+@TECHREPORT{kang1990,
+  author = {Kang, Kyo C and Cohen, Sholom G and Hess, James A and Novak, William
+	E and Peterson, A Spencer},
+  title = {Feature-oriented domain analysis (FODA) feasibility study},
+  institution = {DTIC Document},
+  year = {1990},
+  __markedentry = {[phgm9349:1]},
+  file = {:BaseDonnéeBiblio\\Kang et al 1990.pdf:PDF}
+}
+
+@INPROCEEDINGS{kichkaylo2003constrained,
+  author = {Kichkaylo, Tatiana and Ivan, Anca and Karamcheti, Vijay},
+  title = {Constrained component deployment in wide-area networks using AI planning
+	techniques},
+  booktitle = {Parallel and Distributed Processing Symposium, 2003. Proceedings.
+	International},
+  year = {2003},
+  pages = {10--pp},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\PlacementAlgorithms\\ipdps.pdf:PDF}
+}
+
+@INPROCEEDINGS{kosta2012thinkair,
+  author = {Kosta, Sokol and Aucinas, Andrius and Hui, Pan and Mortier, Richard
+	and Zhang, Xinwen},
+  title = {Thinkair: Dynamic resource allocation and parallel execution in the
+	cloud for mobile code offloading},
+  booktitle = {INFOCOM, 2012 Proceedings IEEE},
+  year = {2012},
+  pages = {945--953},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\infocom12-thinkair.pdf:PDF}
+}
+
+@ARTICLE{kruchten1995,
+  author = {Kruchten, Philippe B},
+  title = {The 4+ 1 view model of architecture},
+  journal = {Software, IEEE},
+  year = {1995},
+  volume = {12},
+  pages = {42--50},
+  number = {6},
+  file = {:BaseDonnéeBiblio\\4+1view-architecture.pdf:PDF},
+  publisher = {IEEE}
+}
+
+@INPROCEEDINGS{lee2014deployment,
+  author = {Lee, Ka Chun Anthony and Segarra, Maria Teresa and Guelec, Stephane},
+  title = {A deployment-oriented development process based on context variability
+	modeling},
+  booktitle = {Model-Driven Engineering and Software Development (MODELSWARD), 2014
+	2nd International Conference on},
+  year = {2014},
+  pages = {454--459},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\Software Variability\\Modelsward2014_CameraReady.pdf:PDF}
+}
+
+@PHDTHESIS{leite2014user,
+  author = {Leite, Alessandro Ferreira},
+  title = {A user-centered and autonomic multi-cloud architecture for high performance
+	computing applications},
+  school = {Universit{\'e} Paris Sud-Paris XI},
+  year = {2014},
+  file = {:BaseDonnéeBiblio\\AlessandroCloud.pdf:PDF}
+}
+
+@ARTICLE{Mell2009,
+  author = {Mell, Peter and Grance, Tim},
+  title = {The NIST definition of cloud computing},
+  journal = {National Institute of Standards and Technology},
+  year = {2009},
+  volume = {53},
+  pages = {50},
+  number = {6},
+  file = {:BaseDonnéeBiblio\\Mell2009-CloudDef.pdf:PDF},
+  publisher = {McKinsey Global Institute}
+}
+
+@ARTICLE{murray2009tomorrow,
+  author = {Murray, Louise},
+  title = {Tomorrow's world [Engineering Innovation]},
+  journal = {Engineering \& Technology},
+  year = {2009},
+  volume = {4},
+  pages = {22--24},
+  number = {20},
+  file = {:BaseDonnéeBiblio\\HouseOftheFuture.pdf:PDF},
+  publisher = {IET}
+}
+
+@INPROCEEDINGS{muskens2004investigations,
+  author = {Muskens, Johan and Chaudron, Michel and Lange, Christian},
+  title = {Investigations in applying metrics to multi-view architecture models},
+  booktitle = {Euromicro Conference, 2004. Proceedings. 30th},
+  year = {2004},
+  pages = {372--379},
+  organization = {IEEE}
+}
+
+@INCOLLECTION{nechypurenko2007applying,
+  author = {Nechypurenko, Andrey and Wuchner, Egon and White, Jules and Schmidt,
+	Douglas C},
+  title = {Applying model intelligence frameworks for deployment problem in
+	real-time and embedded systems},
+  booktitle = {Models in Software Engineering},
+  publisher = {Springer},
+  year = {2007},
+  pages = {143--151}
+}
+
+@ARTICLE{OMG2006,
+  author = {OMG},
+  title = {Deployment and Configuration of Component-based Distributed Applications},
+  journal = {Specification version 4, OMG},
+  year = {2006},
+  volume = {2},
+  pages = {209},
+  file = {:BaseDonnéeBiblio\\OMG2006.pdf:PDF},
+  owner = {phgm9349},
+  timestamp = {2014.08.18}
+}
+
+@ARTICLE{paraiso,
+  author = {Paraiso, Fawaz and Merle, Philippe and Seinturier, Lionel},
+  title = {soCloud: A service-oriented component-based PaaS for managing portability,
+	provisioning, elasticity, and high availability across multiple clouds},
+  journal = {Computing},
+  year = {2014},
+  volume = {1},
+  pages = {1-27},
+  file = {:BaseDonnéeBiblio\\soCloud.pdf:PDF}
+}
+
+@PHDTHESIS{Parra2011,
+  author = {Parra, Carlos},
+  title = {Towards dynamic software product lines: Unifying design and runtime
+	adaptations},
+  school = {Universit{\'e} des Sciences et Technologie de Lille-Lille I},
+  year = {2011},
+  file = {:BaseDonnéeBiblio\\Parra2011-thesis.pdf:PDF}
+}
+
+@ELECTRONIC{pettey2010gartner,
+  author = {Pettey, Christy and Stevens, H},
+  year = {2010},
+  title = {Gartner highlights key predictions for IT organizations and users
+	in 2010 and beyond},
+  journal = {Gartner Inc},
+  owner = {phgm9349},
+  timestamp = {2016.02.19}
+}
+
+@BOOK{Pohl2005,
+  title = {Software product line engineering},
+  publisher = {Springer},
+  year = {2005},
+  author = {Pohl, Klaus and B{\"o}ckle, G{\"u}nter and Van Der Linden, Frank},
+  volume = {10},
+  file = {:BaseDonnéeBiblio\\Pohl2005.pdf:PDF}
+}
+
+@INPROCEEDINGS{possompes2010towards,
+  author = {Possompes, Thibaut and Dony, Christophe and Huchard, Marianne and
+	Rey, Herv{\'e} and Tibermacine, Chouki and Vasques, Xavier},
+  title = {Towards software product lines application in the context of a smart
+	building project},
+  booktitle = {Model-driven Product Line Engineering},
+  year = {2010},
+  pages = {73--84},
+  file = {:BaseDonnéeBiblio\\mdple2010_submission_7.pdf:PDF},
+  owner = {PHGM9349},
+  timestamp = {2016.02.04}
+}
+
+@INPROCEEDINGS{possompes2010uml,
+  author = {Possompes, Thibaut and Dony, Christophe and Huchard, Marianne and
+	Rey, Herv{\'e} and Tibermacine, Chouki and Vasques, Xavier},
+  title = {A UML Profile for Feature Diagrams: Initiating a Model Driven Engineering
+	Approach for Software Product Lines},
+  booktitle = {Journ{\'e}e Lignes de Produits},
+  year = {2010},
+  pages = {59--70},
+  file = {:BaseDonnéeBiblio\\A_UML_profile_for_feature_diagrams.pdf:PDF},
+  owner = {PHGM9349},
+  timestamp = {2016.02.04}
+}
+
+@INPROCEEDINGS{quinton2012using,
+  author = {Quinton, Clement and Duchien, Laurence and Heymans, Patrick and Mouton,
+	St{\'e}phane and Charlier, Etienne},
+  title = {Using Feature Modelling and automations to select among cloud solutions},
+  booktitle = {Product Line Approaches in Software Engineering (PLEASE), 2012 3rd
+	International Workshop on},
+  year = {2012},
+  pages = {17--20},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\Clément2.pdf*:PDF}
+}
+
+@INPROCEEDINGS{quinton2013cardinality,
+  author = {Quinton, Cl{\'e}ment and Romero, Daniel and Duchien, Laurence},
+  title = {Cardinality-based feature models with constraints: a pragmatic approach},
+  booktitle = {Proceedings of the 17th International Software Product Line Conference},
+  year = {2013},
+  pages = {162--166},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\quintonCardinality2013.pdf:PDF}
+}
+
+@INPROCEEDINGS{quinton2013towards,
+  author = {Quinton, Cl{\'e}ment and Haderer, Nicolas and Rouvoy, Romain and
+	Duchien, Laurence},
+  title = {Towards multi-cloud configurations using feature models and ontologies},
+  booktitle = {Proceedings of the 2013 international workshop on Multi-cloud applications
+	and federated clouds},
+  year = {2013},
+  pages = {21--26},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\multiCloud.pdf:PDF}
+}
+
+@PHDTHESIS{quinton2014cloud,
+  author = {Quinton, Cl{\'e}ment},
+  title = {Cloud Environment Selection and Configuration: A Software Product
+	Lines-Based Approach},
+  school = {Universit{\'e} Lille 1},
+  year = {2014},
+  file = {:BaseDonnéeBiblio\\thesisClement.pdf:PDF}
+}
+
+@TechReport{quintonMetaModel,
+  author =      {Quinton, Cl{\'e}ment and Romero, Daniel and Duchien, Laurence},
+  title =       {{Handling Constraints in Cardinality-Based Feature Models: The Cloud Environment Case Study}},
+  institution = {INRIA},
+  year =        {2014},
+  type =        {Research Report},
+  number =      {RR-8478},
+  month =       Feb,
+  file =        {RR-8478.pdf:https\://hal.inria.fr/hal-00946922/file/RR-8478.pdf:PDF},
+  hal_id =      {hal-00946922},
+  hal_version = {v2},
+  pages =       {25},
+  url =         {https://hal.inria.fr/hal-00946922}
+}
+
+@INPROCEEDINGS{sampaio2011uni4cloud,
+  author = {Sampaio, Americo and Mendon{\c{c}}a, Nabor},
+  title = {Uni4Cloud: an approach based on open standards for deployment and
+	management of multi-cloud applications},
+  booktitle = {Proceedings of the 2nd International Workshop on Software Engineering
+	for Cloud Computing},
+  year = {2011},
+  pages = {15--21},
+  organization = {ACM},
+  file = {:BaseDonnéeBiblio\\CloudDeployment\\Uni4Cloud.pdf:PDF}
+}
+
+@ARTICLE{svahnberg2005taxonomy,
+  author = {Svahnberg, Mikael and Van Gurp, Jilles and Bosch, Jan},
+  title = {A taxonomy of variability realization techniques},
+  journal = {Software: Practice and Experience},
+  year = {2005},
+  volume = {35},
+  pages = {705--754},
+  number = {8},
+  file = {:BaseDonnéeBiblio\\Software Variability\\ExternalV.pdf:PDF},
+  publisher = {Wiley Online Library}
+}
+
+@BOOK{Szyperski,
+  title = {Component Software: Beyond Object-oriented Programming},
+  publisher = {ACM Press/Addison-Wesley Publishing Co.},
+  year = {2002},
+  editor = {Pearson},
+  author = {Szyperski, Clemens},
+  address = {New York, NY, USA},
+  isbn = {0-201-17888-5}
+}
+
+@INCOLLECTION{tahri2015using,
+  author = {Tahri, Amal and Duchien, Laurence and Pulou, Jacques},
+  title = {Using Feature Models for Distributed Deployment in Extended Smart
+	Home Architecture},
+  booktitle = {Software Architecture},
+  publisher = {Springer},
+  year = {2015},
+  pages = {285--293},
+  owner = {PHGM9349},
+  timestamp = {2015.11.18}
+}
+
+@BOOK{tanenbaum2007distributed,
+  title = {Distributed systems},
+  publisher = {Prentice-Hall},
+  year = {2007},
+  author = {Tanenbaum, Andrew S and Van Steen, Maarten}
+}
+
+@INCOLLECTION{thiel2002systematic,
+  author = {Thiel, Steffen and Hein, Andreas},
+  title = {Systematic integration of variability into product line architecture
+	design},
+  booktitle = {Software Product Lines},
+  publisher = {Springer},
+  year = {2002},
+  pages = {130--153},
+  file = {:BaseDonnéeBiblio\\relatedwork4+1\\chp%3A10.1007%2F3-540-45652-X_9.pdf:PDF},
+  owner = {PHGM9349},
+  timestamp = {2015.11.10}
+}
+
+@BOOK{tselentis2009towards,
+  title = {Towards the Future Internet: A European Research Perspective},
+  publisher = {IOS press},
+  year = {2009},
+  author = {Tselentis, Georgios and Domingue, John and Galis, Alex}
+}
+
+@INPROCEEDINGS{van2001notion,
+  author = {Van Gurp, Jilles and Bosch, Jan and Svahnberg, Mikael},
+  title = {On the notion of variability in software product lines},
+  booktitle = {Software Architecture, 2001. Proceedings. Working IEEE/IFIP Conference
+	on},
+  year = {2001},
+  pages = {45--54},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\Software Variability\\licentiatethesis.pdf:PDF}
+}
+
+@ARTICLE{weiser1991computer,
+  author = {Weiser, Mark},
+  title = {The computer for the 21st century},
+  journal = {Scientific american},
+  year = {1991},
+  volume = {265},
+  pages = {94--104},
+  number = {3},
+  publisher = {Nature Publishing Group}
+}
+
+@INPROCEEDINGS{white2007automating,
+  author = {White, Jules and Schmidt, Douglas C and Wuchner, Egon and Nechypurenko,
+	Andrey},
+  title = {Automating product-line variant selection for mobile devices},
+  booktitle = {Software Product Line Conference, 2007. SPLC 2007. 11th International},
+  year = {2007},
+  pages = {129--140},
+  organization = {IEEE},
+  file = {:BaseDonnéeBiblio\\MobileSPL\\Automating Product-Line Variant Selection for Mobile Devices.pdf:PDF}
+}
+
+@ARTICLE{white2009selecting,
+  author = {White, Jules and Dougherty, Brian and Schmidt, Douglas C},
+  title = {Selecting highly optimal architectural feature sets with filtered
+	cartesian flattening},
+  journal = {Journal of Systems and Software},
+  year = {2009},
+  volume = {82},
+  pages = {1268--1284},
+  number = {8},
+  file = {:BaseDonnéeBiblio\\Software Variability\\white-fmopt-journal-trèsimportant.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@INCOLLECTION{wilson1995,
+  author = {Wilson, Paul R and Johnstone, Mark S and Neely, Michael and Boles,
+	David},
+  title = {Dynamic storage allocation: A survey and critical review},
+  booktitle = {Memory Management},
+  publisher = {Springer},
+  year = {1995},
+  pages = {1--116},
+  file = {:BaseDonnéeBiblio\\dsa.pdf:PDF}
+}
+
+@INPROCEEDINGS{yang2013fast,
+  author = {Yang, Seungjun and Kwon, Yongin and Cho, Yeongpil and Yi, Hayoon
+	and Kwon, Donghyun and Youn, Jonghee and Paek, Yunheung},
+  title = {Fast dynamic execution offloading for efficient mobile cloud computing},
+  booktitle = {Pervasive Computing and Communications (PerCom), 2013 IEEE International
+	Conference on},
+  year = {2013},
+  pages = {20--28},
+  organization = {IEEE}
+}
+
+@INPROCEEDINGS{zhang2005vadl,
+  author = {Zhang, Tao and Wang, Haipeng},
+  title = {vADL: A Variability-Supported Architecture Description Language for
+	Specifying Product Line Architectures},
+  booktitle = {2nd International Software Product Lines Young Researchers Workshop
+	(SPLYR 2005)},
+  year = {2005}
+}
+
